@@ -18,6 +18,25 @@ figure {
     padding: 0
 }
 
+.me-author {
+  background: #e8f1ff;
+  color: #1a4dff;
+  padding: 1px 4px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.pub-link {
+  color: #3366ff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.pub-link:hover {
+  text-decoration: underline;
+}
+
+
 hr {
     display: block;
     -webkit-margin-before: 0.5em;
