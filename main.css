@@ -18,22 +18,33 @@ figure {
     padding: 0
 }
 
+/* 标题（黑色，粗体） */
+.pub .title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827; /* 深黑 - 与截图一致 */
+}
+
+/* 作者正常文本（深灰） */
+.pub .authors {
+  font-size: 15px;
+  color: #374151; /* Tailwind gray-700 */
+}
+
+/* 高亮你的名字：字体蓝，背景淡蓝 */
 .me-author {
-  background: #e8f1ff;
-  color: #1a4dff;
-  padding: 1px 4px;
+  color: #2563EB;      /* Tailwind blue-600 */
+  background: #DBEAFE; /* Tailwind blue-100 */
+  padding: 2px 4px;
   border-radius: 4px;
   font-weight: 600;
 }
 
-.pub-link {
-  color: #3366ff;
-  margin-right: 10px;
-  text-decoration: none;
-}
-
-.pub-link:hover {
-  text-decoration: underline;
+/* venue 部分 */
+.pub .venue {
+  font-size: 15px;
+  font-style: italic;
+  color: #374151;
 }
 
 
