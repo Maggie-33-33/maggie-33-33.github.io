@@ -34,26 +34,38 @@ figure {
   width: 100%;
 }
 
-/* 标题（黑色，粗体） */
 .pub .title {
   font-size: 18px;
   color: #111827;
 }
 
-/* 作者正常文本（深灰） */
 .pub .authors {
   font-size: 15px;
   color: #374151; /* Tailwind gray-700 */
 }
 
-/* 高亮你的名字：字体蓝，背景淡蓝 */
 .me-author {
-  color: #2563EB;      /* Tailwind blue-600 */
-  background: #DBEAFE; /* Tailwind blue-100 */
+  color: #2563EB;
+  background: #DBEAFE;
   padding: 2px 4px;
   border-radius: 4px;
 }
 
+.pub .venue {
+  margin-top: 4px;
+  font-size: 16px;
+  color: #374151;
+  font-style: italic;
+}
+
+.pub .links { margin-top: 6px; }
+.pub-link {
+  color: #2563EB;
+  text-decoration: none;
+  margin-right: 14px;
+  font-size: 16px;
+}
+.pub-link:hover { text-decoration: underline; }
 
 hr {
     display: block;
