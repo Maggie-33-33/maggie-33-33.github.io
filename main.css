@@ -21,7 +21,6 @@ figure {
 /* 标题（黑色，粗体） */
 .pub .title {
   font-size: 18px;
-  font-weight: 600;
   color: #111827; /* 深黑 - 与截图一致 */
 }
 
@@ -37,14 +36,6 @@ figure {
   background: #DBEAFE; /* Tailwind blue-100 */
   padding: 2px 4px;
   border-radius: 4px;
-  font-weight: 600;
-}
-
-/* venue 部分 */
-.pub .venue {
-  font-size: 15px;
-  font-style: italic;
-  color: #374151;
 }
 
 
